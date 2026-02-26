@@ -44,7 +44,7 @@ I'm based in **Montreal, QC**, holding a B.A. in Joint Major Data Science from *
 <div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.25rem;">
   <div style="min-width: 44px; height: 44px; background: #0f3460; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">🎮</div>
   <div>
-    <div style="font-weight: 700;">Unity Technologies <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· 3 years</span></div>
+    <div style="font-weight: 700;">Unity Technologies <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· May 2022 – May 2023</span></div>
     <div style="font-size: 0.88em; color: #a0a0b0;">Predictive risk models that cut critical bugs by 42%. Python/C# automation frameworks with 60% better code reuse.</div>
   </div>
 </div>
