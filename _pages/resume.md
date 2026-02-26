@@ -26,6 +26,26 @@ Machine Learning Engineer and QA Automation Developer with 6+ years of experienc
 <div class="resume-entry">
   <div class="resume-entry__header">
     <div>
+      <div class="resume-entry__title">Master of Management Analytics (MMA)</div>
+      <div class="resume-entry__company"><a href="https://smith.queensu.ca/grad_studies/mma/index.php" target="_blank">Queen's University · Smith School of Business</a></div>
+    </div>
+    <div class="resume-entry__date">Currently Enrolled</div>
+  </div>
+</div>
+
+<div class="resume-entry">
+  <div class="resume-entry__header">
+    <div>
+      <div class="resume-entry__title">Master of Interdisciplinary Applied AI (MIAI)</div>
+      <div class="resume-entry__company"><a href="https://catalogue.uottawa.ca/en/graduate/master-interdisciplinary-applied-artificial-intelligence-online/" target="_blank">University of Ottawa · Online</a></div>
+    </div>
+    <div class="resume-entry__date">Currently Enrolled</div>
+  </div>
+</div>
+
+<div class="resume-entry">
+  <div class="resume-entry__header">
+    <div>
       <div class="resume-entry__title">Bachelor of Arts — Joint Major in Data Science</div>
       <div class="resume-entry__company">Concordia University</div>
     </div>

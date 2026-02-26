@@ -17,6 +17,32 @@ I'm based in **Montreal, QC**, holding a B.A. in Joint Major Data Science from *
 
 ---
 
+## 🎓 Education
+
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:1.25rem; margin: 1.5rem 0;">
+
+<div style="background:#16213e; border:1px solid #2a2a4a; border-left:3px solid #e94560; border-radius:8px; padding:1.25rem;">
+  <div style="font-size:0.75em; text-transform:uppercase; letter-spacing:0.1em; color:#e94560; margin-bottom:0.4rem;">Currently Enrolled</div>
+  <div style="font-weight:700; margin-bottom:0.25rem;"><a href="https://smith.queensu.ca/grad_studies/mma/index.php" target="_blank" style="color:#eaeaea; text-decoration:none;">Master of Management Analytics</a></div>
+  <div style="color:#a0a0b0; font-size:0.88em;">Queen's University · Smith School of Business</div>
+</div>
+
+<div style="background:#16213e; border:1px solid #2a2a4a; border-left:3px solid #63b3ed; border-radius:8px; padding:1.25rem;">
+  <div style="font-size:0.75em; text-transform:uppercase; letter-spacing:0.1em; color:#63b3ed; margin-bottom:0.4rem;">Currently Enrolled</div>
+  <div style="font-weight:700; margin-bottom:0.25rem;"><a href="https://catalogue.uottawa.ca/en/graduate/master-interdisciplinary-applied-artificial-intelligence-online/" target="_blank" style="color:#eaeaea; text-decoration:none;">Master of Interdisciplinary Applied AI</a></div>
+  <div style="color:#a0a0b0; font-size:0.88em;">University of Ottawa · Online</div>
+</div>
+
+<div style="background:#16213e; border:1px solid #2a2a4a; border-left:3px solid #68d391; border-radius:8px; padding:1.25rem;">
+  <div style="font-size:0.75em; text-transform:uppercase; letter-spacing:0.1em; color:#68d391; margin-bottom:0.4rem;">Completed · 2025</div>
+  <div style="font-weight:700; margin-bottom:0.25rem;">B.A. Joint Major in Data Science</div>
+  <div style="color:#a0a0b0; font-size:0.88em;">Concordia University · Montreal, QC</div>
+</div>
+
+</div>
+
+---
+
 ## 🔬 Research
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0;">
