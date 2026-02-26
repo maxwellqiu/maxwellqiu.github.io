@@ -1,0 +1,423 @@
+/* =============================================================
+   Custom theme overrides for maxwellqiu.github.io
+   Color palette: deep navy dark + crimson accent
+   ============================================================= */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* --- CSS Variables --- */
+:root {
+  --bg-primary:     #1a1a2e;
+  --bg-surface:     #16213e;
+  --bg-card:        #0f3460;
+  --accent:         #e94560;
+  --accent-hover:   #c73652;
+  --accent-muted:   rgba(233, 69, 96, 0.15);
+  --text-primary:   #eaeaea;
+  --text-muted:     #a0a0b0;
+  --border:         #2a2a4a;
+}
+
+/* --- Base Typography --- */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+code, pre, kbd, samp {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* --- Links --- */
+a {
+  color: var(--accent);
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+}
+
+/* --- Navigation --- */
+.greedy-nav {
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+
+  a {
+    color: var(--text-primary);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  .site-title {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--text-primary);
+    letter-spacing: 0.02em;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  }
+
+  .visible-links a {
+    &:before {
+      background: var(--accent);
+    }
+  }
+}
+
+/* --- Sidebar / Author Profile --- */
+.sidebar {
+  .author__avatar img {
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+  }
+
+  .author__name {
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+
+  .author__bio {
+    color: var(--text-muted);
+    font-size: 0.85em;
+  }
+
+  .author__urls-wrapper {
+    .btn {
+      border-color: var(--border);
+      color: var(--text-primary);
+
+      &:hover {
+        background: var(--accent-muted);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+/* --- Page Content --- */
+.page__content {
+  h1, h2, h3, h4 {
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+
+  h2 {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+  }
+}
+
+/* --- Buttons --- */
+.btn {
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+
+  &.btn--primary, &.btn--accent {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+
+    &:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      color: #fff;
+    }
+  }
+
+  &.btn--outline {
+    background: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+
+    &:hover {
+      background: var(--accent-muted);
+    }
+  }
+}
+
+/* --- Skills Badges --- */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  background: var(--accent-muted);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* --- Project Cards --- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+  }
+
+  .project-card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-card__title {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .project-card__tag {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+
+    &.tag--ds {
+      background: rgba(99, 179, 237, 0.15);
+      border: 1px solid #63b3ed;
+      color: #63b3ed;
+    }
+
+    &.tag--qa {
+      background: var(--accent-muted);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+    }
+  }
+
+  .project-card__description {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .project-card__stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .stack-pill {
+    font-size: 0.72em;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0.2em 0.6em;
+    background: var(--bg-card);
+    border-radius: 4px;
+    color: var(--text-muted);
+  }
+
+  .project-card__links {
+    display: flex;
+    gap: 0.75rem;
+
+    a {
+      font-size: 0.85em;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* --- Resume Page --- */
+.resume-download-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4em;
+    margin-bottom: 1.2em;
+  }
+}
+
+.resume-entry {
+  margin-bottom: 1.5rem;
+
+  .resume-entry__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .resume-entry__title {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1em;
+  }
+
+  .resume-entry__company {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .resume-entry__date {
+    color: var(--text-muted);
+    font-size: 0.85em;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+
+    li {
+      color: var(--text-muted);
+      font-size: 0.9em;
+      line-height: 1.7;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+.skills-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+
+  h3 {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* --- Contact Page --- */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 400px;
+}
+
+.contact-link-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    border-color: var(--accent);
+    background: var(--accent-muted);
+    text-decoration: none;
+  }
+
+  .contact-link-item__icon {
+    font-size: 1.4em;
+    color: var(--accent);
+    width: 1.5em;
+    text-align: center;
+  }
+
+  .contact-link-item__label {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.95em;
+  }
+
+  .contact-link-item__value {
+    color: var(--text-muted);
+    font-size: 0.8em;
+  }
+}
+
+/* --- Footer --- */
+.page__footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+/* --- Print styles for Resume --- */
+@media print {
+  .sidebar, .greedy-nav, .page__footer,
+  .resume-download-bar, .page__share, .page__related {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: #111;
+  }
+
+  .page__content {
+    max-width: 100%;
+    padding: 0;
+  }
+}
