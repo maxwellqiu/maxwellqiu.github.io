@@ -19,7 +19,7 @@ I also worked remotely with the **Vogelsberger Lab @ MIT**, applying ML forecast
 
 ### Engineering
 
-Six+ years of professional experience building automation systems across Unity Technologies, Autodesk, TrackTik, MavTek, and Nuance. I've written test frameworks in Python, Java, C#, and JavaScript; built predictive risk models that reduced critical bugs by 42%; and shipped CI/CD-integrated QA pipelines that teams rely on.
+Six+ years of professional experience building automation systems across Unity Technologies, Autodesk, TrackTik, MavTek, and Nuance.
 
 <a href="/resume/" class="btn btn--primary" style="margin-right: 0.75rem;">
   <i class="fas fa-file-alt"></i> View My Resume
@@ -27,66 +27,3 @@ Six+ years of professional experience building automation systems across Unity T
 <a href="/projects/" class="btn btn--outline">
   <i class="fas fa-code"></i> See My Projects
 </a>
-
----
-
-## Technical Skills
-
-### Machine Learning & Data Science
-
-<div class="skills-grid">
-  <span class="skill-badge">Python</span>
-  <span class="skill-badge">PyTorch</span>
-  <span class="skill-badge">scikit-learn</span>
-  <span class="skill-badge">XGBoost</span>
-  <span class="skill-badge">U-Net</span>
-  <span class="skill-badge">OpenCV</span>
-  <span class="skill-badge">Albumentations</span>
-  <span class="skill-badge">pandas</span>
-  <span class="skill-badge">NumPy</span>
-  <span class="skill-badge">Spark</span>
-  <span class="skill-badge">Matplotlib</span>
-  <span class="skill-badge">Seaborn</span>
-  <span class="skill-badge">Flask</span>
-  <span class="skill-badge">FastAPI</span>
-</div>
-
-### QA & Test Automation
-
-<div class="skills-grid">
-  <span class="skill-badge">Appium</span>
-  <span class="skill-badge">Selenium</span>
-  <span class="skill-badge">Cypress</span>
-  <span class="skill-badge">pytest</span>
-  <span class="skill-badge">Robot Framework</span>
-  <span class="skill-badge">Page Object Model</span>
-  <span class="skill-badge">TestRail</span>
-  <span class="skill-badge">Postman</span>
-  <span class="skill-badge">JMeter</span>
-  <span class="skill-badge">REST Assured</span>
-</div>
-
-### Infrastructure & DevOps
-
-<div class="skills-grid">
-  <span class="skill-badge">Docker</span>
-  <span class="skill-badge">Kubernetes</span>
-  <span class="skill-badge">Jenkins</span>
-  <span class="skill-badge">GitHub Actions</span>
-  <span class="skill-badge">AWS (EC2, S3, Lambda)</span>
-  <span class="skill-badge">MySQL</span>
-  <span class="skill-badge">Apache Airflow</span>
-  <span class="skill-badge">Git</span>
-</div>
-
-### Languages
-
-<div class="skills-grid">
-  <span class="skill-badge">Python</span>
-  <span class="skill-badge">Java</span>
-  <span class="skill-badge">C#</span>
-  <span class="skill-badge">JavaScript</span>
-  <span class="skill-badge">SQL</span>
-  <span class="skill-badge">C++</span>
-  <span class="skill-badge">Bash</span>
-</div>

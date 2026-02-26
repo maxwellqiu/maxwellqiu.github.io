@@ -21,7 +21,7 @@ plugins:
 # Author
 author:
   name: "Wenyang Qiu"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "assets/images/profile.jpg"
   bio: "ML Engineer & QA Automation Developer. Concordia University Data Science grad. Published researcher in medical image segmentation. Passionate about reliable models and robust test systems."
   location: "Montreal, QC"
   links:
