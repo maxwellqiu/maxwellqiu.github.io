@@ -63,3 +63,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor/
+  - jekyll-redirect-from
