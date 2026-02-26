@@ -1,28 +1,25 @@
-# Site Settings
 title: "Wenyang Qiu"
 subtitle: "Data Quality Developer | Data Scientist"
 name: "Wenyang Qiu"
-description: "Personal portfolio of Wenyang Qiu — Data Quality Developer and Data Scientist with expertise in Python, QA automation, and data engineering."
+description: "Personal portfolio of Wenyang Qiu — ML Engineer and Data Scientist."
 url: "https://maxwellqiu.github.io"
 baseurl: ""
 repository: "maxwellqiu/maxwellqiu.github.io"
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-remote-theme
 
-# Author
 author:
   name: "Wenyang Qiu"
-  avatar: "assets/images/profile.jpg"
-  bio: "ML Engineer & QA Automation Developer. Concordia University Data Science grad. Published researcher in medical image segmentation. Passionate about reliable models and robust test systems."
+  avatar: "/assets/images/profile.jpg"
+  bio: "ML Engineer & QA Automation Developer. Concordia University Data Science grad. Published researcher in medical image segmentation."
   location: "Montreal, QC"
   links:
     - label: "GitHub"
@@ -35,25 +32,18 @@ author:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:zhihongmtl@outlook.com"
 
-# Navigation
-navigation: "main"
-
-# Collections
 collections:
   projects:
     output: true
     permalink: /projects/:name/
 
-# Defaults
 defaults:
-  # Pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-  # Projects
   - scope:
       path: "_projects"
       type: projects
@@ -61,21 +51,15 @@ defaults:
       layout: single
       author_profile: false
 
-# Reading Files
 include:
   - _pages
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Exclude
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor/
-
-# SEO
-og_image: "/assets/images/profile.jpg"
