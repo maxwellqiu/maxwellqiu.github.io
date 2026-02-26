@@ -1,29 +1,120 @@
 ---
 layout: single
-title: "About"
+title: false
 permalink: /about/
 author_profile: true
 ---
 
-## Hi, I'm Wenyang 👋
+<div style="margin-bottom: 2rem;">
+  <h1 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem;">Hi, I'm Wenyang 👋</h1>
+  <p style="font-size: 1.15rem; color: #a0a0b0; margin-top: 0;">ML Engineer · QA Automation Developer · Published Researcher</p>
+  <hr style="border-color: #e94560; border-width: 2px; width: 60px; margin: 1rem 0;">
+</div>
 
-I'm a **Machine Learning Engineer and QA Automation Developer** based in Montreal, QC. I hold a Bachelor of Arts in **Joint Major Data Science** from Concordia University (2025), and I'm a published researcher in medical image segmentation.
+I'm based in **Montreal, QC**, holding a B.A. in Joint Major Data Science from **Concordia University** (2025). I sit at the intersection of machine learning and software quality — I build models that work, and test systems that prove they stay that way.
 
-I sit at the intersection of **machine learning** and **software quality** — I build models that work, and test systems that prove it. Whether I'm training a lightweight U-Net on medical imaging data or engineering a cross-platform Appium automation suite, I care about one thing: systems that are reliable, observable, and reproducible.
+<br>
 
-### Research
+---
 
-My most recent work at the **Salehanil Lab @ Concordia** involved integrating Squeeze-and-Excitation attention blocks into a lightweight U-Net for breast cancer detection, achieving **88.88% Dice / 81.26% mIoU** and outperforming Attention U-Net and SSL baselines. The model runs at near real-time inference with just 3.10M parameters and 0.72 GFLOPs.
+## 🔬 Research
 
-I also worked remotely with the **Vogelsberger Lab @ MIT**, applying ML forecasting models to WHO breast cancer datasets and building A/B testing frameworks that increased user engagement by 12%.
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0;">
 
-### Engineering
+<div style="background: #16213e; border: 1px solid #2a2a4a; border-left: 3px solid #e94560; border-radius: 8px; padding: 1.25rem;">
+  <div style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.1em; color: #e94560; margin-bottom: 0.5rem;">Concordia University · 2025</div>
+  <div style="font-weight: 700; margin-bottom: 0.5rem;">SE-Lightweight U-Net for Breast Cancer Segmentation</div>
+  <div style="font-size: 0.88em; color: #a0a0b0;">Integrated Squeeze-and-Excitation attention blocks into a lightweight U-Net. Achieved <strong style="color:#eaeaea;">88.88% Dice / 81.26% mIoU</strong> with only 3.10M parameters — outperforming Attention U-Net and SSL baselines.</div>
+</div>
 
-Six+ years of professional experience building automation systems across Unity Technologies, Autodesk, TrackTik, MavTek, and Nuance.
+<div style="background: #16213e; border: 1px solid #2a2a4a; border-left: 3px solid #63b3ed; border-radius: 8px; padding: 1.25rem;">
+  <div style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.1em; color: #63b3ed; margin-bottom: 0.5rem;">MIT Vogelsberger Lab · 2024</div>
+  <div style="font-weight: 700; margin-bottom: 0.5rem;">Breast Cancer Probability Prediction</div>
+  <div style="font-size: 0.88em; color: #a0a0b0;">Applied SVR, polynomial regression, and shallow NNs on a 100,000-population WHO dataset. Built A/B testing frameworks that <strong style="color:#eaeaea;">increased user engagement by 12%</strong>.</div>
+</div>
 
-<a href="/resume/" class="btn btn--primary" style="margin-right: 0.75rem;">
-  <i class="fas fa-file-alt"></i> View My Resume
-</a>
-<a href="/projects/" class="btn btn--outline">
-  <i class="fas fa-code"></i> See My Projects
-</a>
+</div>
+
+---
+
+## 💼 Experience Highlights
+
+<div style="margin: 1.5rem 0;">
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.25rem;">
+  <div style="min-width: 44px; height: 44px; background: #0f3460; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">🎮</div>
+  <div>
+    <div style="font-weight: 700;">Unity Technologies <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· 3 years</span></div>
+    <div style="font-size: 0.88em; color: #a0a0b0;">Predictive risk models that cut critical bugs by 42%. Python/C# automation frameworks with 60% better code reuse.</div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.25rem;">
+  <div style="min-width: 44px; height: 44px; background: #0f3460; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">🏗️</div>
+  <div>
+    <div style="font-weight: 700;">Autodesk <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· Senior QA Developer</span></div>
+    <div style="font-size: 0.88em; color: #a0a0b0;">End-to-end Cypress pipelines with TestRail integration, CI/CD QA workflows, and team-wide automation training.</div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.25rem;">
+  <div style="min-width: 44px; height: 44px; background: #0f3460; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">📱</div>
+  <div>
+    <div style="font-weight: 700;">TrackTik <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· Mobile QA</span></div>
+    <div style="font-size: 0.88em; color: #a0a0b0;">Cross-platform Appium (Java) mobile automation suite integrated into Travis CI/Jenkins CI/CD pipelines.</div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1rem; align-items: flex-start;">
+  <div style="min-width: 44px; height: 44px; background: #0f3460; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">☁️</div>
+  <div>
+    <div style="font-weight: 700;">MavTek & Nuance <span style="color:#a0a0b0; font-weight:400; font-size:0.9em;">· QA Developer</span></div>
+    <div style="font-size: 0.88em; color: #a0a0b0;">AWS service validation (EC2, S3, Lambda, DynamoDB), Robot Framework automation, and NLU test suites for in-car voice systems.</div>
+  </div>
+</div>
+
+</div>
+
+---
+
+## 🛠️ Skills
+
+**Machine Learning**
+<div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin: 0.5rem 0 1.25rem;">
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">PyTorch</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">scikit-learn</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">XGBoost</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">U-Net</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">OpenCV</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">pandas</span>
+  <span style="background:rgba(233,69,96,0.15);border:1px solid #e94560;color:#e94560;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Spark</span>
+</div>
+
+**QA Automation**
+<div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin: 0.5rem 0 1.25rem;">
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Appium</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Selenium</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Cypress</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">pytest</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Robot Framework</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">TestRail</span>
+  <span style="background:rgba(99,179,237,0.15);border:1px solid #63b3ed;color:#63b3ed;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Postman</span>
+</div>
+
+**Infrastructure**
+<div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin: 0.5rem 0 1.5rem;">
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Docker</span>
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Kubernetes</span>
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Jenkins</span>
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">AWS</span>
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">GitHub Actions</span>
+  <span style="background:rgba(104,211,145,0.15);border:1px solid #68d391;color:#68d391;padding:0.25em 0.7em;border-radius:20px;font-size:0.78em;font-weight:600;">Airflow</span>
+</div>
+
+---
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+  <a href="/resume/" class="btn btn--primary"><i class="fas fa-file-alt"></i> View My Resume</a>
+  <a href="/projects/" class="btn btn--outline"><i class="fas fa-code"></i> See My Projects</a>
+  <a href="/contact/" class="btn btn--outline"><i class="fas fa-envelope"></i> Get In Touch</a>
+</div>
